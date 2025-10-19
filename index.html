@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>世界签证政策查询及护照排行榜</title>
+
+  <link rel="stylesheet" href="https://cdnjs.webstatic.cn/ajax/libs/picocss/1.5.13/pico.min.css" />
+  <!-- Awesomplete 样式 -->
+  <link rel="stylesheet" href="https://cdnjs.webstatic.cn/ajax/libs/awesomplete/1.1.5/awesomplete.min.css" />
+
+  <style>
+    body { padding: 20px; }
+    main.container { max-width: 800px; margin: 0 auto; }
+    header { text-align: center; }
+
+    /* 签证查询样式 */
+    .autoComplete_wrapper { display:block; margin:0 auto; max-width:350px; }
+    #country-search { width: 100%; padding: 1rem 2rem; box-sizing: border-box; }
+    #result-card { display: none; margin-top: 1.2rem; }
+
+    /* 排行榜样式 */
+    hr { margin: 3rem 0; }
+    .controls { display:grid; grid-template-columns:1fr; gap:1.2rem; margin-bottom:1.5rem; border:1px solid #e0e0e0; padding:1rem; border-radius:8px; }
+    .controls-row { display:flex; flex-wrap:wrap; gap:1rem; align-items:center; }
+    .view-controls-group { display:flex; gap:1rem; align-items:center; }
+    #rank-table th, #rank-table td { text-align:center; }
+    #rank-table .name { text-align:left; }
+    .sortable { cursor:pointer; position:relative; user-select:none; }
+    .sortable::after { content:''; position:absolute; right:8px; top:50%; transform:translateY(-50%); border:5px solid transparent; opacity:0.3; }
+    .sortable.asc::after { border-bottom-color:var(--primary,currentColor); margin-top:-2px; opacity:1; }
+    .sortable.desc::after { border-top-color:var(--primary,currentColor); margin-top:2px; opacity:1; }
+    tr.highlight { background-color:#fffbe6 !important; }
+    tr.highlight td.name { font-weight:bold; }
+    .search-input {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZvY3VzYWJsZT0iZmFsc2UiIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iMzAiIGhlaWdodD0iMzAiIHZpZXdCb3g9IjAgMCAxNzEgMTcxIiBzdHlsZT0iIGZpbGw6IzAwMDAwMDsiPjx nIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJidXR0IiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1kYXNoYXJyYXk9IiIgc3Ryb2tlLWRhc2h vZmZzZXQ9IjAiIGZvbnQtZmFtaWx5PSJub25lIiBmb250LXdlaWdodD0ibm9uZSIgZm9udC1zaXplPSJub25lIiB0ZXh0LWFuY2hvcj0ibm9uZSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOiBub3JtYWwiPjxwYXRoIGQ9Ik0wLDE3MS45OTYwOXYtMTcxLjk5NjA5aDE3MS45OTYwOXYxNzEuOTk2MDl6IiBmaWxsPSJub25lIj48L3BhdGg+PGcgZmlsbD0iI2ZmN2E3YSI+PHBhdGggZD0iTTc0LjEsMTcuMWMtMzEuNDEyNzIsMCAtNTcsMjUuNTg3MjggLTU3LDU3YzAsMzEuNDEyNzIgMjUuNTg3MjgsNTcgNTcsNTdjMTMuNjYwMSwwIDI2LjIwNTA5LC00Ljg1MDc4IDM2LjAzNjkyLC0xMi45MDI5M2wzNC4wMzMwMSwzNC4wMzMwMWMxLjQyOTY1LDEuNDg5MDcgMy41NTI2MiwyLjA4ODkxIDUuNTUwMTQsMS41NjgxOGMxLjk5NzUyLC0wLjUyMDczIDMuNTU3NDYsLTIuMDgwNjcgNC4wNzgxOSwtNC4wNzgxOWMwLjUyMDczLC0xLjk5NzUyIC0wLjA3OTEzLC00LjEyMDQ5IC0xLjU2ODE4LC01LjU1MDE0bC0zNC4wMzMwMSwtMzQuMDMzMDFjOC4wNTIxNSwtOS44MzE4MiAxMi45MDI5MywtMjIuMzc2ODIgMTIuOTAyOTMsLTM2LjAzNjkyYzAsLTMxLjQxMjcyIC0yNS41ODcyOCwtNTcgLTU3LC01N3pNNzQuMSwyOC41YzI1LjI1MTcsMCA0NS42LDIwLjM0ODMgNDUuNiw0NS42YzAsMjUuMjUxNyAtMjAuMzQ4Myw0NS42IC00NS42LDQ1LjZjLTI1LjI1MTcsMCAtNDUuNiwtMjAuMzQ4MyAtNDUuNiwtNDUuNmMwLC0yNS4yNTE3IDIwLjM0ODMsLTQ1LjYgNDUuNiwtNDUuNnoiPjwvcGF0aD48L2c+PC9nPjwvc3ZnPg==");
+  background-repeat: no-repeat;
+  background-size: 22px;
+  background-position: 10px center;
+  padding-left: 40px; /* 给文字留出图标空间 */
+}
+.awesomplete ul {
+  list-style: none !important;   /* 去掉默认圆点 */
+  padding-left: 0 !important;    /* 去掉左缩进 */
+  margin: 0;                     /* 保持紧凑 */
+}
+/* --- 响应式表格样式 (手机端优化) --- */
+        @media (max-width: 576px) {
+	        .autoComplete_wrapper {
+    margin: 0 50px;
+}
+            body {
+                padding: 10px; /* 在小屏幕上减少页面边距 */
+            }
+            main.container {
+                padding: 0 5px; /* 减少容器的内边距 */
+            }
+            #rank-table {
+                font-size: 0.875rem; /* 适当缩小表格字体 */
+                table-layout: fixed; /* 固定表格布局，让宽度设置生效 */
+                width: 100%;       /* 表格宽度占满容器 */
+            }
+            #rank-table th, #rank-table td {
+                padding: 0.75rem 0.3rem; /* 减小单元格的水平和垂直内边距，让内容更紧凑 */
+                word-wrap: break-word; /* 允许长单词换行 */
+            }
+            /* --- ↓↓↓ 将下面的代码复制到这里 ↓↓↓ --- */
+            #rank-table .rank { width: 10%; }
+            #rank-table .name { width: 40%; }
+            #rank-table .score,
+            #rank-table .free,
+            #rank-table .evisa,
+            #rank-table .visa { width: 12.5%; }
+            /* --- ↑↑↑ 复制到这里结束 ↑↑↑ --- */
+        }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <!-- 签证查询 -->
+    <section id="checker-section">
+      <header>
+        <h1 style="margin-bottom:0;">🌍 签证政策速查</h1>
+        <p>输入要查询的目的地的中文、英文或拼音首字母</p>
+      </header>
+
+      <div class="autoComplete_wrapper">
+        <input id="country-search" type="text" placeholder="例如：泰国 / Thailand / TG" class="search-input" />
+      </div>
+
+      <article id="result-card" aria-live="polite">
+        <h4 id="result-country"></h4>
+        <p id="result-policy" style="font-size:1.05rem; margin:0"></p>
+      </article>
+    </section>
+
+    <hr />
+
+    <!-- 护照排行榜 -->
+    <section id="rank-section">
+      <header><h1>🏆 国家或地区护照实力排行榜</h1></header>
+
+      <div class="controls">
+        <div class="controls-row">
+          <span>显示列:</span>
+          <div class="view-controls-group">
+            <label><input type="checkbox" role="switch" data-toggle="free" checked> 免签</label>
+            <label><input type="checkbox" role="switch" data-toggle="evisa" checked> 电子签</label>
+            <label><input type="checkbox" role="switch" data-toggle="visa" checked> 需签证</label>
+          </div>
+        </div>
+
+        <div class="controls-row">
+          <span>快速跳转:</span>
+          <input type="search" id="rank-search" placeholder="输入国家/地区名称..." />
+        </div>
+      </div>
+
+      <figure>
+        <table id="rank-table" role="grid">
+          <thead>
+            <tr>
+              <th class="rank">#</th>
+              <th class="name">国家/地区</th>
+              <th class="score sortable" data-sort="score">总分</th>
+              <th class="free sortable" data-sort="free">免签</th>
+              <th class="evisa sortable" data-sort="evisa">电子签</th>
+              <th class="visa sortable" data-sort="visa">需签证</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </figure>
+    </section>
+  </main>
+
+  <!-- Awesomplete 脚本 -->
+  <script src="https://cdnjs.webstatic.cn/ajax/libs/awesomplete/1.1.5/awesomplete.min.js"></script>
+
+  <script>
+  (function(){
+    const input = document.getElementById('country-search');
+    const resultCard = document.getElementById('result-card');
+    const resultCountry = document.getElementById('result-country');
+    const resultPolicy = document.getElementById('result-policy');
+
+    // 缓存最后一次从后端取得的建议数组 [{chn,eng,poli},...]
+    let lastSuggestions = [];
+
+    function displayResult(item){
+      if(!item) return;
+      resultCountry.textContent = `${item.chn} (${item.eng})`;
+      resultPolicy.textContent = `签证政策：${item.poli}`;
+      resultCard.style.display = 'block';
+    }
+
+    // 初始化 Awesomplete
+    const aw = new Awesomplete(input, {
+      minChars: 1,
+      maxItems: 12,
+      autoFirst: false,
+      // 让我们传入字符串 "chn|||eng"，并在 item/replace 中解析显示/替换
+      item: function(text, inputText) {
+        // text 是我们放入 list 的字符串
+        const parts = text.split('|||');
+        const chn = parts[0] || '';
+        const eng = parts[1] || '';
+        const li = document.createElement('li');
+        li.innerHTML = `<span>${escapeHtml(chn)}</span> <small style="color:#888;margin-left:8px">${escapeHtml(eng)}</small>`;
+        li.setAttribute('data-value', text);
+        return li;
+      },
+      replace: function(text) {
+        // text 是我们放入 list 的字符串；用中文名替换输入框
+        const chn = (text.split('|||')[0]) || text;
+        this.input.value = chn;
+      }
+    });
+
+    // 工具：防 XSS 显示
+    function escapeHtml(s){
+      return String(s).replace(/[&<>"']/g, function(m){ return ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[m]; });
+    }
+
+    // 当用户输入时去后端拿建议并更新 Awesomplete 列表
+    let controller = null;
+    input.addEventListener('input', async (e) => {
+      const q = input.value.trim();
+      // 隐藏旧结果，等待新的选择
+      resultCard.style.display = 'none';
+
+      if(controller){ controller.abort(); controller = null; }
+      if(!q) { aw.list = []; lastSuggestions = []; return; }
+
+      try {
+        controller = new AbortController();
+        const res = await fetch(`/search?term=${encodeURIComponent(q)}`, { signal: controller.signal });
+        const data = await res.json();
+        if (!Array.isArray(data)) { lastSuggestions = []; aw.list = []; return; }
+
+        // 缓存
+        lastSuggestions = data.slice(0, 50); // 缓一点
+        // 把候选转成字符串 "chn|||eng"，awesomplete 显示 chn + eng
+        aw.list = lastSuggestions.map(x => `${x.chn}|||${x.eng}`);
+        controller = null;
+      } catch(err) {
+        if(err.name === 'AbortError') return;
+        console.error('fetch suggestions failed', err);
+        lastSuggestions = [];
+        aw.list = [];
+      }
+    });
+
+    // 当 Awesomplete 触发选择完成（鼠标点击或键盘选择回车）时
+    input.addEventListener('awesomplete-selectcomplete', function(evt){
+      // evt.text.value 是我们列表的字符串 "chn|||eng"
+      const raw = evt.text.value || '';
+      const chn = raw.split('|||')[0] || raw;
+      // 输入框已被 replace 设置为中文名，但我们再使用缓存精确匹配显示完整记录
+      const match = lastSuggestions.find(x => x.chn === chn || x.eng === chn);
+      if(match){
+        displayResult(match);
+        return;
+      }
+      // 兜底：发请求获取以中文名查询的第一个结果
+      (async () => {
+        try{
+          const r = await fetch(`/search?term=${encodeURIComponent(chn)}`);
+          const arr = await r.json();
+          if(Array.isArray(arr) && arr.length) displayResult(arr[0]);
+        }catch(e){ console.error('fallback fetch failed', e); }
+      })();
+    });
+
+    // 回车处理：延后执行，优先让 awesomplete 的选择先运行（如果是通过上下键 + 回车选择）
+    input.addEventListener('keydown', function(ev){
+      if(ev.key === 'Enter'){
+        ev.preventDefault();
+        setTimeout(async () => {
+          // 如果已经显示了结果（说明 awesomplete 已处理选择），则不要覆盖
+          if(resultCard.style.display === 'block') return;
+          const q = input.value.trim();
+          if(!q) return;
+          // 优先在缓存中精确匹配
+          const match = lastSuggestions.find(x => x.chn === q || x.eng === q);
+          if(match){ displayResult(match); return; }
+
+          // 回退：请求后端，显示第一个匹配
+          try{
+            const r = await fetch(`/search?term=${encodeURIComponent(q)}`);
+            const arr = await r.json();
+            if(Array.isArray(arr) && arr.length) displayResult(arr[0]);
+          }catch(e){ console.error('enter fallback fetch failed', e); }
+        }, 0);
+      }
+    });
+
+    // 兼容鼠标直接点击候选但未触发 selectcomplete（极少见）：监听 document click 延后匹配
+    document.addEventListener('click', function(){
+      setTimeout(() => {
+        const q = input.value.trim();
+        if(!q) return;
+        const match = lastSuggestions.find(x => x.chn === q || x.eng === q);
+        if(match) displayResult(match);
+      }, 0);
+    });
+
+    // ========== 护照排行榜（保持原逻辑） ==========
+    document.addEventListener('DOMContentLoaded', () => {
+      const tableBody = document.querySelector("#rank-table tbody");
+      const tableHead = document.querySelector("#rank-table thead");
+      const viewControls = document.querySelector(".view-controls-group");
+      const rankTable = document.getElementById("rank-table");
+      const rankSearchInput = document.getElementById("rank-search");
+
+      let originalData = [];
+      let currentSort = { key: "score", direction: "desc" };
+
+      function renderTable(data){
+        tableBody.innerHTML = "";
+        data.forEach((country, i) => {
+          const row = document.createElement('tr');
+          row.innerHTML = `
+            <td class="rank">${i+1}</td>
+            <td class="name">${escapeHtml(country.name)}</td>
+            <td class="score">${country.score}</td>
+            <td class="free">${country.free}</td>
+            <td class="evisa">${country.evisa}</td>
+            <td class="visa">${country.visa}</td>
+          `;
+          tableBody.appendChild(row);
+        });
+      }
+
+      function sortAndRender(){
+        const { key, direction } = currentSort;
+        const sorted = [...originalData].sort((a,b) => direction === 'asc' ? a[key] - b[key] : b[key] - a[key]);
+        renderTable(sorted);
+        tableHead.querySelectorAll('th.sortable').forEach(th => {
+          th.classList.remove('asc','desc');
+          if(th.dataset.sort === key) th.classList.add(direction);
+        });
+      }
+
+      fetch('/api/rankings').then(r => r.json()).then(data => {
+        originalData = data;
+        sortAndRender();
+      }).catch(err => console.error('rankings fetch failed', err));
+
+      tableHead.addEventListener('click', (e) => {
+        const th = e.target.closest('th.sortable');
+        if(!th) return;
+        const key = th.dataset.sort;
+        currentSort = { key, direction: currentSort.key === key && currentSort.direction === 'desc' ? 'asc' : 'desc' };
+        sortAndRender();
+      });
+
+      rankSearchInput.addEventListener('input', (e) => {
+        const term = e.target.value.toLowerCase().trim();
+        const rows = tableBody.querySelectorAll('tr');
+        rows.forEach(r => r.classList.remove('highlight'));
+        if(!term) return;
+        for(const row of rows){
+          const name = row.querySelector('.name').textContent.toLowerCase();
+          if(name.includes(term)){
+            row.scrollIntoView({ behavior:'smooth', block:'center' });
+            row.classList.add('highlight');
+            break;
+          }
+        }
+      });
+
+      viewControls.addEventListener('change', (e) => {
+        if(e.target.type === 'checkbox'){
+          const col = e.target.dataset.toggle;
+          rankTable.style.setProperty(`--display-${col}`, e.target.checked ? 'table-cell' : 'none');
+        }
+      });
+
+      ['free','evisa','visa'].forEach(col => rankTable.style.setProperty(`--display-${col}`, 'table-cell'));
+      const styleSheet = document.createElement('style');
+      styleSheet.innerText = `
+        #rank-table .free { display: var(--display-free); }
+        #rank-table .evisa { display: var(--display-evisa); }
+        #rank-table .visa { display: var(--display-visa); }
+      `;
+      document.head.appendChild(styleSheet);
+
+      // 本页面内也可用 escapeHtml
+      function escapeHtml(s){ return String(s).replace(/[&<>"']/g, function(m){ return ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[m]; }); }
+    });
+  })();
+  </script>
+</body>
+</html>
