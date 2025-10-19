@@ -1,42 +1,47 @@
-const express = require('express');
-const cors = require('cors');
-const path = require('path');
-const app = express();
+const url = require('url');
 
-// 导入JSON数据
-// require.resolve 会返回文件的绝对路径，确保在 Vercel 环境下能正确找到文件
-const rankings = require(path.resolve(__dirname, 'rank.json'));
-const policies = require(path.resolve(__dirname, 'passport.json'));
+// require 会自动缓存 JSON 文件，这很高效
+const rankings = require('./rank.json');
+const policies = require('./Passport.json');
 
-// 使用 CORS 中间件，允许前端跨域请求
-app.use(cors());
+// 这是 Vercel Serverless Function 的标准写法
+module.exports = (req, res) => {
+  // 解析请求的 URL，获取路径和查询参数
+  const parsedUrl = url.parse(req.url, true);
+  const { pathname } = parsedUrl;
 
-// --- API 路由 ---
+  // 设置 CORS 响应头，允许任何来源的访问
+  // 这对于让你的前端能从 Vercel 的域名访问 API 是必须的
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Access-Control-Allow-Methods', 'GET');
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
 
-// 1. 获取排行榜数据的路由
-app.get('/api/rankings', (req, res) => {
-  res.json(rankings);
-});
+  // --- API 路由逻辑 ---
 
-// 2. 搜索签证政策的路由
-app.get('/search', (req, res) => {
-  const searchTerm = (req.query.term || '').toLowerCase().trim();
+  // 1. 处理排行榜请求
+  if (pathname === '/api/rankings') {
+    return res.status(200).json(rankings);
+  }
   
-  if (!searchTerm) {
-    return res.json([]);
+  // 2. 处理搜索请求
+  if (pathname === '/search') {
+    const searchTerm = (parsedUrl.query.term || '').toLowerCase().trim();
+    
+    if (!searchTerm) {
+      return res.status(200).json([]);
+    }
+
+    const results = policies.filter(item => {
+      const chn = item.chn.toLowerCase();
+      const eng = item.eng.toLowerCase();
+      const pinyin = (item.pinyin || '').toLowerCase(); 
+      return chn.includes(searchTerm) || eng.includes(searchTerm) || pinyin.startsWith(searchTerm);
+    });
+
+    return res.status(200).json(results);
   }
 
-  const results = policies.filter(item => {
-    const chn = item.chn.toLowerCase();
-    const eng = item.eng.toLowerCase();
-    // 假设您可能有一个拼音首字母的字段
-    const pinyin = (item.pinyin || '').toLowerCase(); 
+  // 如果请求的 API 路径没有匹配，返回 404 错误
+  res.status(404).json({ error: 'API route not found' });
+};
 
-    return chn.includes(searchTerm) || eng.includes(searchTerm) || pinyin.startsWith(searchTerm);
-  });
-
-  res.json(results);
-});
-
-// 导出 app 供 Vercel 使用
-module.exports = app;
