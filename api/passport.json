@@ -1,0 +1,992 @@
+[
+  {
+    "eng": "Albania",
+    "chn": "阿尔巴尼亚",
+    "poli": "免签，最多天数：90天"
+  },
+  {
+    "eng": "Algeria",
+    "chn": "阿尔及利亚",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Andorra",
+    "chn": "安道尔",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Angola",
+    "chn": "安哥拉",
+    "poli": "免签，最多天数：30天"
+  },
+  {
+    "eng": "Antigua and Barbuda",
+    "chn": "安提瓜和巴布达",
+    "poli": "免签，最多天数：30天"
+  },
+  {
+    "eng": "Argentina",
+    "chn": "阿根廷",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Armenia",
+    "chn": "亚美尼亚",
+    "poli": "免签，最多天数：180天"
+  },
+  {
+    "eng": "Australia",
+    "chn": "澳大利亚",
+    "poli": "电子签"
+  },
+  {
+    "eng": "Austria",
+    "chn": "奥地利",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Azerbaijan",
+    "chn": "阿塞拜疆",
+    "poli": "免签，最多天数：30天"
+  },
+  {
+    "eng": "Bahamas",
+    "chn": "巴哈马",
+    "poli": "免签，最多天数：90天"
+  },
+  {
+    "eng": "Bahrain",
+    "chn": "巴林",
+    "poli": "落地签"
+  },
+  {
+    "eng": "Bangladesh",
+    "chn": "孟加拉国",
+    "poli": "落地签"
+  },
+  {
+    "eng": "Barbados",
+    "chn": "巴巴多斯",
+    "poli": "免签，最多天数：30天"
+  },
+  {
+    "eng": "Belarus",
+    "chn": "白俄罗斯",
+    "poli": "免签，最多天数：30天"
+  },
+  {
+    "eng": "Belgium",
+    "chn": "比利时",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Belize",
+    "chn": "伯利兹",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Benin",
+    "chn": "贝宁",
+    "poli": "免签，最多天数：30天"
+  },
+  {
+    "eng": "Bhutan",
+    "chn": "不丹",
+    "poli": "电子签"
+  },
+  {
+    "eng": "Bolivia",
+    "chn": "玻利维亚",
+    "poli": "落地签"
+  },
+  {
+    "eng": "Bosnia and Herzegovina",
+    "chn": "波斯尼亚和黑塞哥维那",
+    "poli": "免签，最多天数：90天"
+  },
+  {
+    "eng": "Botswana",
+    "chn": "博茨瓦纳",
+    "poli": "电子签"
+  },
+  {
+    "eng": "Brazil",
+    "chn": "巴西",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Brunei",
+    "chn": "文莱",
+    "poli": "落地签"
+  },
+  {
+    "eng": "Bulgaria",
+    "chn": "保加利亚",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Burkina Faso",
+    "chn": "布基纳法索",
+    "poli": "电子签"
+  },
+  {
+    "eng": "Burundi",
+    "chn": "布隆迪",
+    "poli": "落地签"
+  },
+  {
+    "eng": "Cambodia",
+    "chn": "柬埔寨",
+    "poli": "落地签"
+  },
+  {
+    "eng": "Cameroon",
+    "chn": "喀麦隆",
+    "poli": "电子签"
+  },
+  {
+    "eng": "Canada",
+    "chn": "加拿大",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Cape Verde",
+    "chn": "佛得角",
+    "poli": "落地签"
+  },
+  {
+    "eng": "Central African Republic",
+    "chn": "中非共和国",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Chad",
+    "chn": "乍得",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Chile",
+    "chn": "智利",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Colombia",
+    "chn": "哥伦比亚",
+    "poli": "电子签"
+  },
+  {
+    "eng": "Comoros",
+    "chn": "科摩罗",
+    "poli": "落地签"
+  },
+  {
+    "eng": "Congo",
+    "chn": "刚果",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "DR Congo",
+    "chn": "刚果民主共和国",
+    "poli": "电子签"
+  },
+  {
+    "eng": "Costa Rica",
+    "chn": "哥斯达黎加",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Ivory Coast",
+    "chn": "象牙海岸",
+    "poli": "ETA电子签"
+  },
+  {
+    "eng": "Croatia",
+    "chn": "克罗地亚",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Cuba",
+    "chn": "古巴",
+    "poli": "免签，最多天数：90天"
+  },
+  {
+    "eng": "Cyprus",
+    "chn": "塞浦路斯",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Czech Republic",
+    "chn": "捷克共和国",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Denmark",
+    "chn": "丹麦",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Djibouti",
+    "chn": "吉布提",
+    "poli": "落地签"
+  },
+  {
+    "eng": "Dominica",
+    "chn": "多米尼克",
+    "poli": "免签，最多天数：180天"
+  },
+  {
+    "eng": "Dominican Republic",
+    "chn": "多米尼加共和国",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Ecuador",
+    "chn": "厄瓜多尔",
+    "poli": "电子签"
+  },
+  {
+    "eng": "Egypt",
+    "chn": "埃及",
+    "poli": "落地签"
+  },
+  {
+    "eng": "El Salvador",
+    "chn": "萨尔瓦多",
+    "poli": "电子签"
+  },
+  {
+    "eng": "Equatorial Guinea",
+    "chn": "赤道几内亚",
+    "poli": "电子签"
+  },
+  {
+    "eng": "Eritrea",
+    "chn": "厄立特里亚",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Estonia",
+    "chn": "爱沙尼亚",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Swaziland",
+    "chn": "斯威士兰",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Ethiopia",
+    "chn": "埃塞俄比亚",
+    "poli": "落地签"
+  },
+  {
+    "eng": "Fiji",
+    "chn": "斐济",
+    "poli": "免签，最多天数：120天"
+  },
+  {
+    "eng": "Finland",
+    "chn": "芬兰",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "France",
+    "chn": "法国",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Gabon",
+    "chn": "加蓬",
+    "poli": "电子签"
+  },
+  {
+    "eng": "Gambia",
+    "chn": "冈比亚",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Georgia",
+    "chn": "格鲁吉亚",
+    "poli": "免签，最多天数：30天"
+  },
+  {
+    "eng": "Germany",
+    "chn": "德国",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Ghana",
+    "chn": "加纳",
+    "poli": "落地签"
+  },
+  {
+    "eng": "Greece",
+    "chn": "希腊",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Grenada",
+    "chn": "格林纳达",
+    "poli": "免签，最多天数：30天"
+  },
+  {
+    "eng": "Guatemala",
+    "chn": "危地马拉",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Guinea",
+    "chn": "几内亚",
+    "poli": "电子签"
+  },
+  {
+    "eng": "Guinea-Bissau",
+    "chn": "几内亚比绍",
+    "poli": "落地签"
+  },
+  {
+    "eng": "Guyana",
+    "chn": "圭亚那",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Haiti",
+    "chn": "海地",
+    "poli": "免签，最多天数：90天"
+  },
+  {
+    "eng": "Honduras",
+    "chn": "洪都拉斯",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Hong Kong",
+    "chn": "香港",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Hungary",
+    "chn": "匈牙利",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Iceland",
+    "chn": "冰岛",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "India",
+    "chn": "印度",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Indonesia",
+    "chn": "印度尼西亚",
+    "poli": "落地签"
+  },
+  {
+    "eng": "Iran",
+    "chn": "伊朗",
+    "poli": "免签，最多天数：21天"
+  },
+  {
+    "eng": "Iraq",
+    "chn": "伊拉克",
+    "poli": "落地签"
+  },
+  {
+    "eng": "Ireland",
+    "chn": "爱尔兰",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Israel",
+    "chn": "以色列",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Italy",
+    "chn": "意大利",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Jamaica",
+    "chn": "牙买加",
+    "poli": "免签，最多天数：30天"
+  },
+  {
+    "eng": "Japan",
+    "chn": "日本",
+    "poli": "电子签"
+  },
+  {
+    "eng": "Jordan",
+    "chn": "约旦",
+    "poli": "落地签"
+  },
+  {
+    "eng": "Kazakhstan",
+    "chn": "哈萨克斯坦",
+    "poli": "免签，最多天数：30天"
+  },
+  {
+    "eng": "Kenya",
+    "chn": "肯尼亚",
+    "poli": "ETA电子签"
+  },
+  {
+    "eng": "Kiribati",
+    "chn": "基里巴斯",
+    "poli": "免签，最多天数：90天"
+  },
+  {
+    "eng": "Kosovo",
+    "chn": "科索沃",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Kuwait",
+    "chn": "科威特",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Kyrgyzstan",
+    "chn": "吉尔吉斯斯坦",
+    "poli": "电子签"
+  },
+  {
+    "eng": "Laos",
+    "chn": "老挝",
+    "poli": "落地签"
+  },
+  {
+    "eng": "Latvia",
+    "chn": "拉脱维亚",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Lebanon",
+    "chn": "黎巴嫩",
+    "poli": "落地签"
+  },
+  {
+    "eng": "Lesotho",
+    "chn": "莱索托",
+    "poli": "电子签"
+  },
+  {
+    "eng": "Liberia",
+    "chn": "利比里亚",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Libya",
+    "chn": "利比亚",
+    "poli": "电子签"
+  },
+  {
+    "eng": "Liechtenstein",
+    "chn": "列支敦士登",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Lithuania",
+    "chn": "立陶宛",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Luxembourg",
+    "chn": "卢森堡",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Macao",
+    "chn": "澳门",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Madagascar",
+    "chn": "马达加斯加",
+    "poli": "落地签"
+  },
+  {
+    "eng": "Malawi",
+    "chn": "马拉维",
+    "poli": "免签，最多天数：30天"
+  },
+  {
+    "eng": "Malaysia",
+    "chn": "马来西亚",
+    "poli": "免签，最多天数：30天"
+  },
+  {
+    "eng": "Maldives",
+    "chn": "马尔代夫",
+    "poli": "免签，最多天数：30天"
+  },
+  {
+    "eng": "Mali",
+    "chn": "马里",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Malta",
+    "chn": "马耳他",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Marshall Islands",
+    "chn": "马绍尔群岛",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Mauritania",
+    "chn": "毛里塔尼亚",
+    "poli": "落地签"
+  },
+  {
+    "eng": "Mauritius",
+    "chn": "毛里求斯",
+    "poli": "免签，最多天数：90天"
+  },
+  {
+    "eng": "Mexico",
+    "chn": "墨西哥",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Micronesia",
+    "chn": "密克罗尼西亚",
+    "poli": "免签，最多天数：30天"
+  },
+  {
+    "eng": "Moldova",
+    "chn": "摩尔多瓦",
+    "poli": "电子签"
+  },
+  {
+    "eng": "Monaco",
+    "chn": "摩纳哥",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Mongolia",
+    "chn": "蒙古",
+    "poli": "电子签"
+  },
+  {
+    "eng": "Montenegro",
+    "chn": "黑山",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Morocco",
+    "chn": "摩洛哥",
+    "poli": "免签，最多天数：90天"
+  },
+  {
+    "eng": "Mozambique",
+    "chn": "莫桑比克",
+    "poli": "免签，最多天数：30天"
+  },
+  {
+    "eng": "Myanmar",
+    "chn": "缅甸",
+    "poli": "落地签"
+  },
+  {
+    "eng": "Namibia",
+    "chn": "纳米比亚",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Nauru",
+    "chn": "瑙鲁",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Nepal",
+    "chn": "尼泊尔",
+    "poli": "落地签"
+  },
+  {
+    "eng": "Netherlands",
+    "chn": "荷兰",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "New Zealand",
+    "chn": "新西兰",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Nicaragua",
+    "chn": "尼加拉瓜",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Niger",
+    "chn": "尼日尔",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Nigeria",
+    "chn": "尼日利亚",
+    "poli": "电子签"
+  },
+  {
+    "eng": "North Korea",
+    "chn": "朝鲜",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "North Macedonia",
+    "chn": "北马其顿",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Norway",
+    "chn": "挪威",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Oman",
+    "chn": "阿曼",
+    "poli": "落地签"
+  },
+  {
+    "eng": "Pakistan",
+    "chn": "巴基斯坦",
+    "poli": "ETA电子签"
+  },
+  {
+    "eng": "Palau",
+    "chn": "帕劳",
+    "poli": "落地签"
+  },
+  {
+    "eng": "Palestine",
+    "chn": "巴勒斯坦",
+    "poli": "visa free"
+  },
+  {
+    "eng": "Panama",
+    "chn": "巴拿马",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Papua New Guinea",
+    "chn": "巴布亚新几内亚",
+    "poli": "ETA电子签"
+  },
+  {
+    "eng": "Paraguay",
+    "chn": "巴拉圭",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Peru",
+    "chn": "秘鲁",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Philippines",
+    "chn": "菲律宾",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Poland",
+    "chn": "波兰",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Portugal",
+    "chn": "葡萄牙",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Qatar",
+    "chn": "卡塔尔",
+    "poli": "免签，最多天数：30天"
+  },
+  {
+    "eng": "Romania",
+    "chn": "罗马尼亚",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Russia",
+    "chn": "俄罗斯",
+    "poli": "电子签"
+  },
+  {
+    "eng": "Rwanda",
+    "chn": "卢旺达",
+    "poli": "落地签"
+  },
+  {
+    "eng": "Saint Kitts and Nevis",
+    "chn": "圣基茨和尼维斯",
+    "poli": "免签，最多天数：90天"
+  },
+  {
+    "eng": "Saint Lucia",
+    "chn": "圣卢西亚",
+    "poli": "免签，最多天数：42天"
+  },
+  {
+    "eng": "Samoa",
+    "chn": "萨摩亚",
+    "poli": "落地签"
+  },
+  {
+    "eng": "San Marino",
+    "chn": "圣马力诺",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Sao Tome and Principe",
+    "chn": "圣多美和普林西比",
+    "poli": "落地签"
+  },
+  {
+    "eng": "Saudi Arabia",
+    "chn": "沙特阿拉伯",
+    "poli": "落地签"
+  },
+  {
+    "eng": "Senegal",
+    "chn": "塞内加尔",
+    "poli": "落地签"
+  },
+  {
+    "eng": "Serbia",
+    "chn": "塞尔维亚",
+    "poli": "免签，最多天数：30天"
+  },
+  {
+    "eng": "Seychelles",
+    "chn": "塞舌尔",
+    "poli": "免签，最多天数：90天"
+  },
+  {
+    "eng": "Sierra Leone",
+    "chn": "塞拉利昂",
+    "poli": "落地签"
+  },
+  {
+    "eng": "Singapore",
+    "chn": "新加坡",
+    "poli": "免签，最多天数：30天"
+  },
+  {
+    "eng": "Slovakia",
+    "chn": "斯洛伐克",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Slovenia",
+    "chn": "斯洛文尼亚",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Solomon Islands",
+    "chn": "所罗门群岛",
+    "poli": "落地签"
+  },
+  {
+    "eng": "Somalia",
+    "chn": "索马里",
+    "poli": "落地签"
+  },
+  {
+    "eng": "South Africa",
+    "chn": "南非",
+    "poli": "电子签"
+  },
+  {
+    "eng": "South Korea",
+    "chn": "韩国",
+    "poli": "电子签"
+  },
+  {
+    "eng": "South Sudan",
+    "chn": "南苏丹",
+    "poli": "电子签"
+  },
+  {
+    "eng": "Spain",
+    "chn": "西班牙",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Sri Lanka",
+    "chn": "斯里兰卡",
+    "poli": "落地签"
+  },
+  {
+    "eng": "Saint Vincent and the Grenadines",
+    "chn": "圣文森特和格林纳丁斯",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Sudan",
+    "chn": "苏丹",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Suriname",
+    "chn": "苏里南",
+    "poli": "免签，最多天数：30天"
+  },
+  {
+    "eng": "Sweden",
+    "chn": "瑞典",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Switzerland",
+    "chn": "瑞士",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Syria",
+    "chn": "叙利亚",
+    "poli": "电子签"
+  },
+  {
+    "eng": "Taiwan",
+    "chn": "台湾",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Tajikistan",
+    "chn": "塔吉克斯坦",
+    "poli": "电子签"
+  },
+  {
+    "eng": "Tanzania",
+    "chn": "坦桑尼亚",
+    "poli": "落地签"
+  },
+  {
+    "eng": "Thailand",
+    "chn": "泰国",
+    "poli": "免签，最多天数：60天"
+  },
+  {
+    "eng": "Timor-Leste",
+    "chn": "东帝汶",
+    "poli": "落地签"
+  },
+  {
+    "eng": "Togo",
+    "chn": "多哥",
+    "poli": "电子签"
+  },
+  {
+    "eng": "Tonga",
+    "chn": "汤加",
+    "poli": "落地签"
+  },
+  {
+    "eng": "Trinidad and Tobago",
+    "chn": "特立尼达和多巴哥",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Tunisia",
+    "chn": "突尼斯",
+    "poli": "免签，最多天数：90天"
+  },
+  {
+    "eng": "Turkmenistan",
+    "chn": "土库曼斯坦",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Tuvalu",
+    "chn": "图瓦卢",
+    "poli": "落地签"
+  },
+  {
+    "eng": "Turkey",
+    "chn": "土耳其",
+    "poli": "电子签"
+  },
+  {
+    "eng": "Uganda",
+    "chn": "乌干达",
+    "poli": "电子签"
+  },
+  {
+    "eng": "Ukraine",
+    "chn": "乌克兰",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "United Arab Emirates",
+    "chn": "阿拉伯联合酋长国",
+    "poli": "免签，最多天数：30天"
+  },
+  {
+    "eng": "United Kingdom",
+    "chn": "英国",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "United States",
+    "chn": "美国",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Uruguay",
+    "chn": "乌拉圭",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Uzbekistan",
+    "chn": "乌兹别克斯坦",
+    "poli": "免签，最多天数：10天"
+  },
+  {
+    "eng": "Vanuatu",
+    "chn": "瓦努阿图",
+    "poli": "免签，最多天数：120天"
+  },
+  {
+    "eng": "Vatican",
+    "chn": "梵蒂冈",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Venezuela",
+    "chn": "委内瑞拉",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Vietnam",
+    "chn": "越南",
+    "poli": "电子签"
+  },
+  {
+    "eng": "Yemen",
+    "chn": "也门",
+    "poli": "需要办理签证"
+  },
+  {
+    "eng": "Zambia",
+    "chn": "赞比亚",
+    "poli": "免签，最多天数：90天"
+  },
+  {
+    "eng": "Zimbabwe",
+    "chn": "津巴布韦",
+    "poli": "落地签"
+  },
+  {
+    "eng": "Afghanistan",
+    "chn": "阿富汗",
+    "poli": "需要办理签证"
+  }
+]

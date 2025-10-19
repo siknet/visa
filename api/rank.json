@@ -1,0 +1,1395 @@
+[
+  {
+    "name": "阿联酋",
+    "score": 179,
+    "free": 133,
+    "evisa": 46,
+    "visa": 19
+  },
+  {
+    "name": "新加坡",
+    "score": 175,
+    "free": 137,
+    "evisa": 38,
+    "visa": 23
+  },
+  {
+    "name": "西班牙",
+    "score": 175,
+    "free": 131,
+    "evisa": 44,
+    "visa": 23
+  },
+  {
+    "name": "比利时",
+    "score": 174,
+    "free": 132,
+    "evisa": 42,
+    "visa": 24
+  },
+  {
+    "name": "法国",
+    "score": 174,
+    "free": 132,
+    "evisa": 42,
+    "visa": 24
+  },
+  {
+    "name": "德国",
+    "score": 174,
+    "free": 131,
+    "evisa": 43,
+    "visa": 24
+  },
+  {
+    "name": "荷兰",
+    "score": 174,
+    "free": 131,
+    "evisa": 43,
+    "visa": 24
+  },
+  {
+    "name": "芬兰",
+    "score": 174,
+    "free": 131,
+    "evisa": 43,
+    "visa": 24
+  },
+  {
+    "name": "卢森堡",
+    "score": 174,
+    "free": 131,
+    "evisa": 43,
+    "visa": 24
+  },
+  {
+    "name": "意大利",
+    "score": 174,
+    "free": 131,
+    "evisa": 43,
+    "visa": 24
+  },
+  {
+    "name": "丹麦",
+    "score": 174,
+    "free": 130,
+    "evisa": 44,
+    "visa": 24
+  },
+  {
+    "name": "葡萄牙",
+    "score": 174,
+    "free": 130,
+    "evisa": 44,
+    "visa": 24
+  },
+  {
+    "name": "瑞士",
+    "score": 174,
+    "free": 129,
+    "evisa": 45,
+    "visa": 24
+  },
+  {
+    "name": "希腊",
+    "score": 174,
+    "free": 129,
+    "evisa": 45,
+    "visa": 24
+  },
+  {
+    "name": "奥地利",
+    "score": 174,
+    "free": 128,
+    "evisa": 46,
+    "visa": 24
+  },
+  {
+    "name": "挪威",
+    "score": 174,
+    "free": 127,
+    "evisa": 47,
+    "visa": 24
+  },
+  {
+    "name": "爱尔兰",
+    "score": 174,
+    "free": 126,
+    "evisa": 48,
+    "visa": 24
+  },
+  {
+    "name": "韩国",
+    "score": 174,
+    "free": 124,
+    "evisa": 50,
+    "visa": 24
+  },
+  {
+    "name": "瑞典",
+    "score": 173,
+    "free": 130,
+    "evisa": 43,
+    "visa": 25
+  },
+  {
+    "name": "波兰",
+    "score": 173,
+    "free": 129,
+    "evisa": 44,
+    "visa": 25
+  },
+  {
+    "name": "斯洛文尼亚",
+    "score": 173,
+    "free": 128,
+    "evisa": 45,
+    "visa": 25
+  },
+  {
+    "name": "克罗地亚",
+    "score": 173,
+    "free": 128,
+    "evisa": 45,
+    "visa": 25
+  },
+  {
+    "name": "匈牙利",
+    "score": 173,
+    "free": 128,
+    "evisa": 45,
+    "visa": 25
+  },
+  {
+    "name": "爱沙尼亚",
+    "score": 173,
+    "free": 127,
+    "evisa": 46,
+    "visa": 25
+  },
+  {
+    "name": "日本",
+    "score": 173,
+    "free": 124,
+    "evisa": 49,
+    "visa": 25
+  },
+  {
+    "name": "马耳他",
+    "score": 172,
+    "free": 130,
+    "evisa": 42,
+    "visa": 26
+  },
+  {
+    "name": "捷克",
+    "score": 172,
+    "free": 127,
+    "evisa": 45,
+    "visa": 26
+  },
+  {
+    "name": "斯洛伐克",
+    "score": 172,
+    "free": 127,
+    "evisa": 45,
+    "visa": 26
+  },
+  {
+    "name": "罗马尼亚",
+    "score": 172,
+    "free": 127,
+    "evisa": 45,
+    "visa": 26
+  },
+  {
+    "name": "拉脱维亚",
+    "score": 172,
+    "free": 126,
+    "evisa": 46,
+    "visa": 26
+  },
+  {
+    "name": "新西兰",
+    "score": 172,
+    "free": 121,
+    "evisa": 51,
+    "visa": 26
+  },
+  {
+    "name": "保加利亚",
+    "score": 171,
+    "free": 125,
+    "evisa": 46,
+    "visa": 27
+  },
+  {
+    "name": "列支敦士登",
+    "score": 171,
+    "free": 121,
+    "evisa": 50,
+    "visa": 27
+  },
+  {
+    "name": "澳大利亚",
+    "score": 171,
+    "free": 117,
+    "evisa": 54,
+    "visa": 27
+  },
+  {
+    "name": "塞浦路斯",
+    "score": 170,
+    "free": 128,
+    "evisa": 42,
+    "visa": 28
+  },
+  {
+    "name": "立陶宛",
+    "score": 170,
+    "free": 124,
+    "evisa": 46,
+    "visa": 28
+  },
+  {
+    "name": "马来西亚",
+    "score": 170,
+    "free": 124,
+    "evisa": 46,
+    "visa": 28
+  },
+  {
+    "name": "冰岛",
+    "score": 170,
+    "free": 121,
+    "evisa": 49,
+    "visa": 28
+  },
+  {
+    "name": "英国",
+    "score": 169,
+    "free": 123,
+    "evisa": 46,
+    "visa": 29
+  },
+  {
+    "name": "加拿大",
+    "score": 169,
+    "free": 121,
+    "evisa": 48,
+    "visa": 29
+  },
+  {
+    "name": "美国",
+    "score": 168,
+    "free": 119,
+    "evisa": 49,
+    "visa": 30
+  },
+  {
+    "name": "摩纳哥",
+    "score": 167,
+    "free": 116,
+    "evisa": 51,
+    "visa": 31
+  },
+  {
+    "name": "巴西",
+    "score": 163,
+    "free": 117,
+    "evisa": 46,
+    "visa": 35
+  },
+  {
+    "name": "香港",
+    "score": 162,
+    "free": 122,
+    "evisa": 40,
+    "visa": 36
+  },
+  {
+    "name": "智利",
+    "score": 162,
+    "free": 114,
+    "evisa": 48,
+    "visa": 36
+  },
+  {
+    "name": "阿根廷",
+    "score": 162,
+    "free": 113,
+    "evisa": 49,
+    "visa": 36
+  },
+  {
+    "name": "圣马力诺",
+    "score": 161,
+    "free": 110,
+    "evisa": 51,
+    "visa": 37
+  },
+  {
+    "name": "安道尔",
+    "score": 161,
+    "free": 109,
+    "evisa": 52,
+    "visa": 37
+  },
+  {
+    "name": "巴巴多斯",
+    "score": 156,
+    "free": 111,
+    "evisa": 45,
+    "visa": 42
+  },
+  {
+    "name": "文莱",
+    "score": 155,
+    "free": 111,
+    "evisa": 44,
+    "visa": 43
+  },
+  {
+    "name": "巴哈马",
+    "score": 154,
+    "free": 107,
+    "evisa": 47,
+    "visa": 44
+  },
+  {
+    "name": "以色列",
+    "score": 153,
+    "free": 111,
+    "evisa": 42,
+    "visa": 45
+  },
+  {
+    "name": "墨西哥",
+    "score": 153,
+    "free": 104,
+    "evisa": 49,
+    "visa": 45
+  },
+  {
+    "name": "乌拉圭",
+    "score": 151,
+    "free": 104,
+    "evisa": 47,
+    "visa": 47
+  },
+  {
+    "name": "梵蒂冈城",
+    "score": 150,
+    "free": 100,
+    "evisa": 50,
+    "visa": 48
+  },
+  {
+    "name": "秘鲁",
+    "score": 150,
+    "free": 98,
+    "evisa": 52,
+    "visa": 48
+  },
+  {
+    "name": "圣基茨和尼维斯",
+    "score": 149,
+    "free": 106,
+    "evisa": 43,
+    "visa": 49
+  },
+  {
+    "name": "塞舌尔",
+    "score": 149,
+    "free": 104,
+    "evisa": 45,
+    "visa": 49
+  },
+  {
+    "name": "圣文森特和格林纳丁斯",
+    "score": 147,
+    "free": 105,
+    "evisa": 42,
+    "visa": 51
+  },
+  {
+    "name": "乌克兰",
+    "score": 147,
+    "free": 96,
+    "evisa": 51,
+    "visa": 51
+  },
+  {
+    "name": "安提瓜和巴布达",
+    "score": 144,
+    "free": 103,
+    "evisa": 41,
+    "visa": 54
+  },
+  {
+    "name": "哥斯达黎加",
+    "score": 144,
+    "free": 97,
+    "evisa": 47,
+    "visa": 54
+  },
+  {
+    "name": "巴拉圭",
+    "score": 144,
+    "free": 93,
+    "evisa": 51,
+    "visa": 54
+  },
+  {
+    "name": "特立尼达和多巴哥",
+    "score": 143,
+    "free": 101,
+    "evisa": 42,
+    "visa": 55
+  },
+  {
+    "name": "澳门",
+    "score": 143,
+    "free": 100,
+    "evisa": 43,
+    "visa": 55
+  },
+  {
+    "name": "毛里求斯",
+    "score": 141,
+    "free": 101,
+    "evisa": 40,
+    "visa": 57
+  },
+  {
+    "name": "巴拿马",
+    "score": 141,
+    "free": 95,
+    "evisa": 46,
+    "visa": 57
+  },
+  {
+    "name": "格林纳达",
+    "score": 140,
+    "free": 100,
+    "evisa": 40,
+    "visa": 58
+  },
+  {
+    "name": "圣卢西亚",
+    "score": 140,
+    "free": 97,
+    "evisa": 43,
+    "visa": 58
+  },
+  {
+    "name": "所罗门群岛",
+    "score": 137,
+    "free": 92,
+    "evisa": 45,
+    "visa": 61
+  },
+  {
+    "name": "多米尼克",
+    "score": 136,
+    "free": 96,
+    "evisa": 40,
+    "visa": 62
+  },
+  {
+    "name": "塞尔维亚",
+    "score": 135,
+    "free": 91,
+    "evisa": 44,
+    "visa": 63
+  },
+  {
+    "name": "哥伦比亚",
+    "score": 135,
+    "free": 87,
+    "evisa": 48,
+    "visa": 63
+  },
+  {
+    "name": "北马其顿",
+    "score": 133,
+    "free": 85,
+    "evisa": 48,
+    "visa": 65
+  },
+  {
+    "name": "危地马拉",
+    "score": 133,
+    "free": 85,
+    "evisa": 48,
+    "visa": 65
+  },
+  {
+    "name": "格鲁吉亚",
+    "score": 133,
+    "free": 83,
+    "evisa": 50,
+    "visa": 65
+  },
+  {
+    "name": "萨摩亚",
+    "score": 132,
+    "free": 87,
+    "evisa": 45,
+    "visa": 66
+  },
+  {
+    "name": "萨尔瓦多",
+    "score": 132,
+    "free": 85,
+    "evisa": 47,
+    "visa": 66
+  },
+  {
+    "name": "洪都拉斯",
+    "score": 131,
+    "free": 85,
+    "evisa": 46,
+    "visa": 67
+  },
+  {
+    "name": "黑山",
+    "score": 131,
+    "free": 84,
+    "evisa": 47,
+    "visa": 67
+  },
+  {
+    "name": "图瓦卢",
+    "score": 130,
+    "free": 87,
+    "evisa": 43,
+    "visa": 68
+  },
+  {
+    "name": "台湾",
+    "score": 129,
+    "free": 85,
+    "evisa": 44,
+    "visa": 69
+  },
+  {
+    "name": "基里巴斯",
+    "score": 129,
+    "free": 83,
+    "evisa": 46,
+    "visa": 69
+  },
+  {
+    "name": "汤加",
+    "score": 128,
+    "free": 86,
+    "evisa": 42,
+    "visa": 70
+  },
+  {
+    "name": "马绍尔群岛",
+    "score": 126,
+    "free": 80,
+    "evisa": 46,
+    "visa": 72
+  },
+  {
+    "name": "尼加拉瓜",
+    "score": 126,
+    "free": 80,
+    "evisa": 46,
+    "visa": 72
+  },
+  {
+    "name": "委内瑞拉",
+    "score": 126,
+    "free": 75,
+    "evisa": 51,
+    "visa": 72
+  },
+  {
+    "name": "俄罗斯联邦",
+    "score": 125,
+    "free": 85,
+    "evisa": 40,
+    "visa": 73
+  },
+  {
+    "name": "摩尔多瓦",
+    "score": 125,
+    "free": 79,
+    "evisa": 46,
+    "visa": 73
+  },
+  {
+    "name": "波黑",
+    "score": 124,
+    "free": 81,
+    "evisa": 43,
+    "visa": 74
+  },
+  {
+    "name": "土耳其",
+    "score": 124,
+    "free": 76,
+    "evisa": 48,
+    "visa": 74
+  },
+  {
+    "name": "帕劳",
+    "score": 123,
+    "free": 74,
+    "evisa": 49,
+    "visa": 75
+  },
+  {
+    "name": "阿尔巴尼亚",
+    "score": 122,
+    "free": 79,
+    "evisa": 43,
+    "visa": 76
+  },
+  {
+    "name": "密克罗尼西亚",
+    "score": 121,
+    "free": 73,
+    "evisa": 48,
+    "visa": 77
+  },
+  {
+    "name": "卡塔尔",
+    "score": 119,
+    "free": 77,
+    "evisa": 42,
+    "visa": 79
+  },
+  {
+    "name": "科威特",
+    "score": 111,
+    "free": 64,
+    "evisa": 47,
+    "visa": 87
+  },
+  {
+    "name": "南非",
+    "score": 110,
+    "free": 63,
+    "evisa": 47,
+    "visa": 88
+  },
+  {
+    "name": "厄瓜多尔",
+    "score": 105,
+    "free": 54,
+    "evisa": 51,
+    "visa": 93
+  },
+  {
+    "name": "东帝汶",
+    "score": 103,
+    "free": 59,
+    "evisa": 44,
+    "visa": 95
+  },
+  {
+    "name": "伯利兹",
+    "score": 102,
+    "free": 63,
+    "evisa": 39,
+    "visa": 96
+  },
+  {
+    "name": "沙特阿拉伯",
+    "score": 102,
+    "free": 60,
+    "evisa": 42,
+    "visa": 96
+  },
+  {
+    "name": "马尔代夫",
+    "score": 102,
+    "free": 57,
+    "evisa": 45,
+    "visa": 96
+  },
+  {
+    "name": "巴林",
+    "score": 101,
+    "free": 56,
+    "evisa": 45,
+    "visa": 97
+  },
+  {
+    "name": "牙买加",
+    "score": 100,
+    "free": 59,
+    "evisa": 41,
+    "visa": 98
+  },
+  {
+    "name": "圭亚那",
+    "score": 98,
+    "free": 55,
+    "evisa": 43,
+    "visa": 100
+  },
+  {
+    "name": "斐济",
+    "score": 98,
+    "free": 53,
+    "evisa": 45,
+    "visa": 100
+  },
+  {
+    "name": "阿曼",
+    "score": 97,
+    "free": 53,
+    "evisa": 44,
+    "visa": 101
+  },
+  {
+    "name": "瓦努阿图",
+    "score": 96,
+    "free": 50,
+    "evisa": 46,
+    "visa": 102
+  },
+  {
+    "name": "泰国",
+    "score": 96,
+    "free": 45,
+    "evisa": 51,
+    "visa": 102
+  },
+  {
+    "name": "哈萨克斯坦",
+    "score": 95,
+    "free": 47,
+    "evisa": 48,
+    "visa": 103
+  },
+  {
+    "name": "白俄罗斯",
+    "score": 94,
+    "free": 49,
+    "evisa": 45,
+    "visa": 104
+  },
+  {
+    "name": "科索沃",
+    "score": 93,
+    "free": 56,
+    "evisa": 37,
+    "visa": 105
+  },
+  {
+    "name": "中国",
+    "score": 93,
+    "free": 44,
+    "evisa": 49,
+    "visa": 105
+  },
+  {
+    "name": "印度尼西亚",
+    "score": 92,
+    "free": 48,
+    "evisa": 44,
+    "visa": 106
+  },
+  {
+    "name": "瑙鲁",
+    "score": 90,
+    "free": 46,
+    "evisa": 44,
+    "visa": 108
+  },
+  {
+    "name": "苏里南",
+    "score": 89,
+    "free": 41,
+    "evisa": 48,
+    "visa": 109
+  },
+  {
+    "name": "玻利维亚",
+    "score": 89,
+    "free": 38,
+    "evisa": 51,
+    "visa": 109
+  },
+  {
+    "name": "巴布亚新几内亚",
+    "score": 88,
+    "free": 43,
+    "evisa": 45,
+    "visa": 110
+  },
+  {
+    "name": "阿塞拜疆",
+    "score": 86,
+    "free": 38,
+    "evisa": 48,
+    "visa": 112
+  },
+  {
+    "name": "博茨瓦纳",
+    "score": 85,
+    "free": 51,
+    "evisa": 34,
+    "visa": 113
+  },
+  {
+    "name": "摩洛哥",
+    "score": 85,
+    "free": 43,
+    "evisa": 42,
+    "visa": 113
+  },
+  {
+    "name": "多米尼加共和国",
+    "score": 85,
+    "free": 35,
+    "evisa": 50,
+    "visa": 113
+  },
+  {
+    "name": "莱索托",
+    "score": 82,
+    "free": 47,
+    "evisa": 35,
+    "visa": 116
+  },
+  {
+    "name": "斯威士兰",
+    "score": 81,
+    "free": 46,
+    "evisa": 35,
+    "visa": 117
+  },
+  {
+    "name": "亚美尼亚",
+    "score": 81,
+    "free": 36,
+    "evisa": 45,
+    "visa": 117
+  },
+  {
+    "name": "纳米比亚",
+    "score": 80,
+    "free": 45,
+    "evisa": 35,
+    "visa": 118
+  },
+  {
+    "name": "马拉维",
+    "score": 80,
+    "free": 44,
+    "evisa": 36,
+    "visa": 118
+  },
+  {
+    "name": "肯尼亚",
+    "score": 78,
+    "free": 40,
+    "evisa": 38,
+    "visa": 120
+  },
+  {
+    "name": "蒙古",
+    "score": 78,
+    "free": 38,
+    "evisa": 40,
+    "visa": 120
+  },
+  {
+    "name": "突尼斯",
+    "score": 78,
+    "free": 37,
+    "evisa": 41,
+    "visa": 120
+  },
+  {
+    "name": "菲律宾",
+    "score": 78,
+    "free": 37,
+    "evisa": 41,
+    "visa": 120
+  },
+  {
+    "name": "坦桑尼亚",
+    "score": 76,
+    "free": 45,
+    "evisa": 31,
+    "visa": 122
+  },
+  {
+    "name": "赞比亚",
+    "score": 76,
+    "free": 40,
+    "evisa": 36,
+    "visa": 122
+  },
+  {
+    "name": "乌兹别克斯坦",
+    "score": 76,
+    "free": 32,
+    "evisa": 44,
+    "visa": 122
+  },
+  {
+    "name": "佛得角",
+    "score": 75,
+    "free": 40,
+    "evisa": 35,
+    "visa": 123
+  },
+  {
+    "name": "古巴",
+    "score": 75,
+    "free": 32,
+    "evisa": 43,
+    "visa": 123
+  },
+  {
+    "name": "吉尔吉斯斯坦",
+    "score": 75,
+    "free": 29,
+    "evisa": 46,
+    "visa": 123
+  },
+  {
+    "name": "冈比亚",
+    "score": 74,
+    "free": 45,
+    "evisa": 29,
+    "visa": 124
+  },
+  {
+    "name": "加纳",
+    "score": 74,
+    "free": 43,
+    "evisa": 31,
+    "visa": 124
+  },
+  {
+    "name": "印度",
+    "score": 74,
+    "free": 30,
+    "evisa": 44,
+    "visa": 124
+  },
+  {
+    "name": "乌干达",
+    "score": 73,
+    "free": 37,
+    "evisa": 36,
+    "visa": 125
+  },
+  {
+    "name": "卢旺达",
+    "score": 73,
+    "free": 30,
+    "evisa": 43,
+    "visa": 125
+  },
+  {
+    "name": "津巴布韦",
+    "score": 72,
+    "free": 39,
+    "evisa": 33,
+    "visa": 126
+  },
+  {
+    "name": "塔吉克斯坦",
+    "score": 72,
+    "free": 26,
+    "evisa": 46,
+    "visa": 126
+  },
+  {
+    "name": "圣多美和普林西比",
+    "score": 71,
+    "free": 29,
+    "evisa": 42,
+    "visa": 127
+  },
+  {
+    "name": "贝宁",
+    "score": 70,
+    "free": 35,
+    "evisa": 35,
+    "visa": 128
+  },
+  {
+    "name": "马达加斯加",
+    "score": 70,
+    "free": 31,
+    "evisa": 39,
+    "visa": 128
+  },
+  {
+    "name": "越南",
+    "score": 70,
+    "free": 28,
+    "evisa": 42,
+    "visa": 128
+  },
+  {
+    "name": "柬埔寨",
+    "score": 69,
+    "free": 25,
+    "evisa": 44,
+    "visa": 129
+  },
+  {
+    "name": "塞拉利昂",
+    "score": 68,
+    "free": 41,
+    "evisa": 27,
+    "visa": 130
+  },
+  {
+    "name": "塞内加尔",
+    "score": 68,
+    "free": 35,
+    "evisa": 33,
+    "visa": 130
+  },
+  {
+    "name": "莫桑比克",
+    "score": 68,
+    "free": 31,
+    "evisa": 37,
+    "visa": 130
+  },
+  {
+    "name": "加蓬",
+    "score": 68,
+    "free": 29,
+    "evisa": 39,
+    "visa": 130
+  },
+  {
+    "name": "阿尔及利亚",
+    "score": 68,
+    "free": 24,
+    "evisa": 44,
+    "visa": 130
+  },
+  {
+    "name": "多哥",
+    "score": 67,
+    "free": 31,
+    "evisa": 36,
+    "visa": 131
+  },
+  {
+    "name": "不丹",
+    "score": 67,
+    "free": 21,
+    "evisa": 46,
+    "visa": 131
+  },
+  {
+    "name": "布基纳法索",
+    "score": 66,
+    "free": 32,
+    "evisa": 34,
+    "visa": 132
+  },
+  {
+    "name": "赤道几内亚",
+    "score": 66,
+    "free": 26,
+    "evisa": 40,
+    "visa": 132
+  },
+  {
+    "name": "科特迪瓦",
+    "score": 65,
+    "free": 30,
+    "evisa": 35,
+    "visa": 133
+  },
+  {
+    "name": "毛里塔尼亚",
+    "score": 65,
+    "free": 27,
+    "evisa": 38,
+    "visa": 133
+  },
+  {
+    "name": "约旦",
+    "score": 65,
+    "free": 22,
+    "evisa": 43,
+    "visa": 133
+  },
+  {
+    "name": "土库曼斯坦",
+    "score": 65,
+    "free": 17,
+    "evisa": 48,
+    "visa": 133
+  },
+  {
+    "name": "尼日尔",
+    "score": 64,
+    "free": 32,
+    "evisa": 32,
+    "visa": 134
+  },
+  {
+    "name": "埃及",
+    "score": 64,
+    "free": 21,
+    "evisa": 43,
+    "visa": 134
+  },
+  {
+    "name": "几内亚",
+    "score": 63,
+    "free": 30,
+    "evisa": 33,
+    "visa": 135
+  },
+  {
+    "name": "老挝",
+    "score": 63,
+    "free": 25,
+    "evisa": 38,
+    "visa": 135
+  },
+  {
+    "name": "安哥拉",
+    "score": 63,
+    "free": 24,
+    "evisa": 39,
+    "visa": 135
+  },
+  {
+    "name": "科摩罗",
+    "score": 62,
+    "free": 20,
+    "evisa": 42,
+    "visa": 136
+  },
+  {
+    "name": "海地",
+    "score": 62,
+    "free": 18,
+    "evisa": 44,
+    "visa": 136
+  },
+  {
+    "name": "马里",
+    "score": 61,
+    "free": 32,
+    "evisa": 29,
+    "visa": 137
+  },
+  {
+    "name": "中非共和国",
+    "score": 61,
+    "free": 22,
+    "evisa": 39,
+    "visa": 137
+  },
+  {
+    "name": "吉布提",
+    "score": 61,
+    "free": 19,
+    "evisa": 42,
+    "visa": 137
+  },
+  {
+    "name": "几内亚比绍",
+    "score": 60,
+    "free": 28,
+    "evisa": 32,
+    "visa": 138
+  },
+  {
+    "name": "乍得",
+    "score": 60,
+    "free": 25,
+    "evisa": 35,
+    "visa": 138
+  },
+  {
+    "name": "喀麦隆",
+    "score": 60,
+    "free": 22,
+    "evisa": 38,
+    "visa": 138
+  },
+  {
+    "name": "利比里亚",
+    "score": 58,
+    "free": 27,
+    "evisa": 31,
+    "visa": 140
+  },
+  {
+    "name": "黎巴嫩",
+    "score": 58,
+    "free": 19,
+    "evisa": 39,
+    "visa": 140
+  },
+  {
+    "name": "缅甸",
+    "score": 58,
+    "free": 16,
+    "evisa": 42,
+    "visa": 140
+  },
+  {
+    "name": "斯里兰卡",
+    "score": 57,
+    "free": 21,
+    "evisa": 36,
+    "visa": 141
+  },
+  {
+    "name": "布隆迪",
+    "score": 57,
+    "free": 20,
+    "evisa": 37,
+    "visa": 141
+  },
+  {
+    "name": "刚果",
+    "score": 56,
+    "free": 22,
+    "evisa": 34,
+    "visa": 142
+  },
+  {
+    "name": "伊朗",
+    "score": 55,
+    "free": 16,
+    "evisa": 39,
+    "visa": 143
+  },
+  {
+    "name": "埃塞俄比亚",
+    "score": 55,
+    "free": 14,
+    "evisa": 41,
+    "visa": 143
+  },
+  {
+    "name": "尼日利亚",
+    "score": 54,
+    "free": 27,
+    "evisa": 27,
+    "visa": 144
+  },
+  {
+    "name": "尼泊尔",
+    "score": 54,
+    "free": 14,
+    "evisa": 40,
+    "visa": 144
+  },
+  {
+    "name": "南苏丹",
+    "score": 53,
+    "free": 19,
+    "evisa": 34,
+    "visa": 145
+  },
+  {
+    "name": "刚果（金）",
+    "score": 53,
+    "free": 18,
+    "evisa": 35,
+    "visa": 145
+  },
+  {
+    "name": "利比亚",
+    "score": 52,
+    "free": 17,
+    "evisa": 35,
+    "visa": 146
+  },
+  {
+    "name": "苏丹",
+    "score": 52,
+    "free": 15,
+    "evisa": 37,
+    "visa": 146
+  },
+  {
+    "name": "朝鲜",
+    "score": 51,
+    "free": 12,
+    "evisa": 39,
+    "visa": 147
+  },
+  {
+    "name": "孟加拉国",
+    "score": 50,
+    "free": 19,
+    "evisa": 31,
+    "visa": 148
+  },
+  {
+    "name": "巴勒斯坦",
+    "score": 50,
+    "free": 14,
+    "evisa": 36,
+    "visa": 148
+  },
+  {
+    "name": "厄立特里亚",
+    "score": 50,
+    "free": 13,
+    "evisa": 37,
+    "visa": 148
+  },
+  {
+    "name": "也门",
+    "score": 46,
+    "free": 12,
+    "evisa": 34,
+    "visa": 152
+  },
+  {
+    "name": "巴基斯坦",
+    "score": 45,
+    "free": 12,
+    "evisa": 33,
+    "visa": 153
+  },
+  {
+    "name": "索马里",
+    "score": 44,
+    "free": 12,
+    "evisa": 32,
+    "visa": 154
+  },
+  {
+    "name": "伊拉克",
+    "score": 44,
+    "free": 11,
+    "evisa": 33,
+    "visa": 154
+  },
+  {
+    "name": "叙利亚",
+    "score": 39,
+    "free": 9,
+    "evisa": 30,
+    "visa": 159
+  },
+  {
+    "name": "阿富汗",
+    "score": 38,
+    "free": 6,
+    "evisa": 32,
+    "visa": 160
+  }
+]
