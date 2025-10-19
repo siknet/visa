@@ -1,10 +1,12 @@
 {
-  "name": "vercel-visa-checker",
+  "name": "passport-query-app",
   "version": "1.0.0",
-  "type": "module",
+  "description": "Passport Visa Policy and Ranking Query Tool",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "node api/index.js"
+  },
   "dependencies": {
-    "sqlite": "^5.1.1",
-    "sqlite3": "^5.1.7",
-    "pinyin": "^3.0.0"
+    "pinyin": "^3.0.0" 
   }
 }
