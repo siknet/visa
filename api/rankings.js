@@ -3,7 +3,7 @@ import { open } from "sqlite";
 
 async function getDB() {
   return open({
-    filename: "public/pp.db",
+    filename: "../public/pp.db",
     driver: sqlite3.Database
   });
 }
@@ -15,3 +15,4 @@ export default async function handler(req, res) {
   );
   res.status(200).json(rows);
 }
+
