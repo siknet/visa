@@ -8,10 +8,9 @@
   ],
   "rewrites": [
     {
-      // 匹配所有以 /api/ 开头的请求
       "source": "/api/:path*",
-      // 将请求重写到 api/index.js 文件，并保留路径参数
       "destination": "/api/index.js"
     }
   ]
 }
+
