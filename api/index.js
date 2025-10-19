@@ -1,11 +1,9 @@
-import url from 'url';
-import pinyin from 'pinyin';
-import { createRequire } from 'module';
+const url = require('url');
 
-// 在 ES Module 中使用 require() 来导入 JSON 文件
-// 这是因为 import 导入 JSON 文件需要文件扩展名，并且 Vercel 的兼容性更好
-const require = createRequire(import.meta.url);
+// 导入 pinyin 库。
+const pinyin = require('pinyin'); 
 
+// 直接使用 require 导入 JSON 文件。Vercel 在 CJS 模式下会正确处理。
 // 确保这两个文件 (rank.json 和 Passport.json) 位于 api/ 目录下
 const rankings = require('./rank.json');
 const policies = require('./Passport.json');
@@ -16,12 +14,13 @@ const policies = require('./Passport.json');
  * @returns {object} 包含 full 和 initials 属性
  */
 function getPinyin(chn) {
-  // ... (getPinyin 函数内容保持不变)
+  // 获取全拼 (例如: "zhongguo")
   const pinyinFull = pinyin(chn, { style: pinyin.STYLE_NORMAL })
     .flat()
     .join("")
     .toLowerCase();
   
+  // 获取首字母 (例如: "zg")
   const pinyinInitials = pinyin(chn, { style: pinyin.STYLE_FIRST_LETTER })
     .flat()
     .join("")
@@ -30,8 +29,8 @@ function getPinyin(chn) {
   return { full: pinyinFull, initials: pinyinInitials };
 }
 
-// 这是 Vercel Serverless Function 的标准写法 (使用 export default)
-export default (req, res) => {
+// 这是 Vercel Serverless Function 的标准写法 (使用 module.exports)
+module.exports = (req, res) => {
   // 解析请求的 URL，获取路径和查询参数
   const parsedUrl = url.parse(req.url, true);
   const { pathname } = parsedUrl;
@@ -43,6 +42,7 @@ export default (req, res) => {
 
   // 处理 OPTIONS 请求 (CORS 预检)
   if (req.method === 'OPTIONS') {
+    // Vercel 推荐在 OPTIONS 请求时结束，防止不必要的函数执行
     return res.status(200).end();
   }
 
@@ -51,6 +51,7 @@ export default (req, res) => {
   // 1. 处理排行榜请求 (/api/rankings)
   if (pathname.includes('/rankings')) {
     console.log('Handling /api/rankings request');
+    // 使用 res.status(200).json() 确保返回 JSON 格式
     return res.status(200).json(rankings);
   }
   
@@ -76,6 +77,7 @@ export default (req, res) => {
         // 生成拼音并进行匹配
         const { full: pinyinFull, initials: pinyinInitials } = getPinyin(item.chn);
         
+        // 这里匹配使用 includes，以支持模糊搜索
         if (
             chn.includes(searchTerm) ||
             eng.includes(searchTerm) ||
