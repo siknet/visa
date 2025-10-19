@@ -1,6 +1,11 @@
 {
-  "name": "visa-rank-app",
+  "name": "vercel-visa-checker",
   "version": "1.0.0",
-  "description": "Visa policy checker and passport ranking.",
-  "main": "api/index.js"
+  "type": "module",
+  "dependencies": {
+    "express": "^4.19.2",
+    "sqlite3": "^5.1.7",
+    "sqlite": "^5.1.1",
+    "pinyin": "^3.0.0"
+  }
 }
