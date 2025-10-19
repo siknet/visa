@@ -223,7 +223,7 @@
       // 兜底：发请求获取以中文名查询的第一个结果
       (async () => {
         try{
-          const r = await fetch(`/search?term=${encodeURIComponent(chn)}`);
+          const r = await fetch(`/api/search?term=${encodeURIComponent(chn)}`);
           const arr = await r.json();
           if(Array.isArray(arr) && arr.length) displayResult(arr[0]);
         }catch(e){ console.error('fallback fetch failed', e); }
@@ -351,4 +351,5 @@
   </script>
 </body>
 </html>
+
 
