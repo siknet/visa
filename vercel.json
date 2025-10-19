@@ -1,12 +1,17 @@
 {
   "version": 2,
   "builds": [
-    { "src": "api/*.js", "use": "@vercel/node" },
-    { "src": "public/**", "use": "@vercel/static" }
+    {
+      "src": "api/index.js",
+      "use": "@vercel/node"
+    }
   ],
-  "routes": [
-    { "src": "/api/(.*)", "dest": "/api/$1.js" },
-    { "handle": "filesystem" },
-    { "src": "/(.*)", "dest": "/public/index.html" }
+  "rewrites": [
+    {
+      // 匹配所有以 /api/ 开头的请求
+      "source": "/api/:path*",
+      // 将请求重写到 api/index.js 文件，并保留路径参数
+      "destination": "/api/index.js"
+    }
   ]
 }
